@@ -1,0 +1,28 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+
+  "name": "url-header-parser",
+  "version": "0.0.1",
+  "description": "What am I about?",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "cors":"^2.8.4"
+  },
+  "engines": {
+    "node": "8.11.2"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/url-header-parser"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
